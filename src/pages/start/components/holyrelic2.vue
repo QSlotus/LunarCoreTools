@@ -16,7 +16,7 @@
       <div class="generate">
         <a-input v-model="value" placeholder="" />
         <a-button type="primary" shape="round" size="large" @click="copyvalue">复制</a-button>
-        <a-button type="primary" shape="round" size="large" @click="execute">执行</a-button>
+        <!-- <a-button type="primary" shape="round" size="large" @click="execute">执行</a-button> -->
       </div>
     </div>
   </div>
