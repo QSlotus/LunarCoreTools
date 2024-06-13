@@ -21,7 +21,6 @@ declare module '@vue/runtime-core' {
     ARadio: typeof import('@arco-design/web-vue')['Radio']
     ARadioGroup: typeof import('@arco-design/web-vue')['RadioGroup']
     ASelect: typeof import('@arco-design/web-vue')['Select']
-    ASpace: typeof import('@arco-design/web-vue')['Space']
     ASubMenu: typeof import('@arco-design/web-vue')['SubMenu']
     ATable: typeof import('@arco-design/web-vue')['Table']
     Footer: typeof import('./components/footer/index.vue')['default']
