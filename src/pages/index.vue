@@ -22,7 +22,7 @@
           <IosAirplane />
         </n-icon>
       </template>
-      {{ t('main.version') }}，闲聊吹水群：124750952
+      {{ t('main.version') }}
     </n-alert>
     <!-- 将语言切换按钮移到右上角 -->
     <button class="language-toggle" @click="toggleLanguage">
@@ -71,7 +71,7 @@ const pageViews = ref(0);
 // Define a separate async function to fetch page views
 const fetchPageViews = async () => {
   try {
-    const response = await axios.get('https://finicounter.eu.org/counter?host=lctoolsweb.vercel.app');
+    const response = await axios.get('https://finicounter.eu.org/counter?host=sr-tool.qiusyan.top');
     pageViews.value = response.data.views;
   } catch (error) {
     console.error('Failed to fetch page views:', error);
