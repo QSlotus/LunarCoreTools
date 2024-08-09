@@ -43,9 +43,65 @@ export default {
   overflow: hidden;
 }
 
-.iframe-content {
-  width: 100%;
-  height: 100%;
-  border: none;
+.commuse {
+  width: 500px;
+  margin: auto;
+}
+
+.commuse-item {
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin: 18px 0;
+
+  >div {
+    &:nth-child(1) {
+      width: 150px;
+      text-align: right;
+      padding-right: 10px;
+      color: #6b6a6a !important;
+    }
+  }
+}
+
+.generate {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+@media screen and (max-width: 768px) {
+  .commuse {
+    width: 100%; 
+    padding: 10px; 
+  }
+
+  .commuse-item {
+    margin: 18px 0 10px; 
+  }
+
+  .commuse-item > div:nth-child(1) {
+    width: auto; 
+    text-align: left; 
+    padding: 0; 
+    margin-bottom: 5px; 
+  }
+
+  .generate {
+    display: block; 
+    margin-left: 0; 
+    width: 100%; 
+    margin-bottom: 80px; 
+    margin-top: 10px; 
+    text-align: center; 
+  }
+  .generate > .arco-input {
+    margin-bottom: 10px; 
+  }
+  .generate button { 
+    display: block; 
+    width: 100%; 
+    margin-top: 10px; 
+    
+  }
 }
 </style>

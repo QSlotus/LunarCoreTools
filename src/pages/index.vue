@@ -22,7 +22,7 @@
           <IosAirplane />
         </n-icon>
       </template>
-      {{ t('main.version') }}
+      {{ t('main.version') }}，本指令器是独立项目，与任何公开PS没有从属关系。
     </n-alert>
     <!-- 将语言切换按钮移到右上角 -->
     <button class="language-toggle" @click="toggleLanguage">
