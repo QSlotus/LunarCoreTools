@@ -22,21 +22,22 @@
           <IosAirplane />
         </n-icon>
       </template>
-      {{ t('main.version') }}，本指令器是独立项目，与任何公开PS没有从属关系。
+      <!-- {{ t('main.version') }}，本指令器是独立项目，与任何公开PS没有从属关系。 -->
+      建议将主题切换至 <b>夜间模式</b> 以获取更好的使用体验
     </n-alert>
     <!-- 将语言切换按钮移到右上角 -->
-    <button class="language-toggle" @click="toggleLanguage">
+    <!-- <button class="language-toggle" @click="toggleLanguage">
       {{ isChinese ? 'EN' : '中文' }}
-    </button>
+    </button> -->
 
     <!-- Add a footer to display page views -->
-    <div class="footer">
+    <!-- <div class="footer">
       {{ t('main.views') }} {{ pageViews }} {{ t('main.time') }}
-    </div>
+    </div> -->
 
     
-    <div v-if="showAlert" class="alert-overlay"></div>
-    <div v-if="showAlert" class="alert-container">
+    <!-- <div v-if="showAlert" class="alert-overlay"></div> -->
+    <!-- <div v-if="showAlert" class="alert-container">
       <div class="alert-text">
         当前版本已过时，请前往GitHub更新。
       </div>
@@ -45,7 +46,7 @@
           <button>确认</button>
         </a>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
