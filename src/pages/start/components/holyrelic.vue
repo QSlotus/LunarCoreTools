@@ -45,7 +45,7 @@
       <div class="commuse-item">
         <div class="text-slate-900 dark:text-slate-100">{{ t('relic.enhancementlevel') }}</div>
 
-        <a-input-number placeholder="" v-model="grade" :min="0" :max="20" />
+        <a-input-number placeholder="" v-model="grade" :min="0" :max="10000" />
       </div>
 
       <div class="generate">
